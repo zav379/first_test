@@ -1,0 +1,3 @@
+SELECT country_name, version, day, cohort, media_source, payer_group, user_type, glory_level, user_id, device_type, nn_sum_revenue, count_buy
+FROM bi.coem_ios_bi_revenue
+where country_name='Canada' and cohort>='2017-01-01' and cohort<='2017-12-31' 
